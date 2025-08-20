@@ -139,6 +139,9 @@ hlt
 ## Output  
 <img width="1920" height="1080" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/772c3efd-85bd-48b5-8cc3-3fd908de3912" />
 
+
+## Programs for logical operations
+
 ## AND alp
 ```
 Mov al,98h;
