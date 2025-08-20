@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : KEERTHANA D
+
+Roll no : 212224040155
+
+Date of experiment : 20-08-2025
 
 
 
@@ -78,7 +80,15 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+Mov ax,0801h;
 
+Mov bx,8122h;
+
+add ax,bx;
+
+hlt
+```
 
 
 ## Output 
@@ -86,23 +96,59 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+Mov al,86h;
+
+Mov bl,98h;
+
+sub al,bl;
+
+hlt
+```
 ## Output  
 <img width="1920" height="1080" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/90d6365d-fed6-4bff-b7f3-479163e9611c" />
 
 ## Multiplication alp 
+```
+Mov a,1485h;
+
+Mov bx,8122h;
+
+mul bx;
+
+hlt
+```
+
  ## Output  
  <img width="1920" height="1080" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/6fb1183d-81ab-4b86-a907-663474ea7eaf" />
 
 
 
 ## Division alp 
+```
+Mov al,98h;
+
+Mov bl,88h;
+
+div bl;
+
+hlt
+```
+
 
 ## Output  
 <img width="1920" height="1080" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/772c3efd-85bd-48b5-8cc3-3fd908de3912" />
 
 ## AND alp
+```
+Mov al,98h;
 
+Mov bl,88h;
+
+and al,bl;
+
+hlt
+```
 
 ## Output
 
@@ -110,20 +156,32 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 <img width="1920" height="1080" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/efcae1e0-e7c0-489c-91b1-94f236068fae" />
 
 ## OR alp
-Mov al,43h;
-Mov bl,40h; 
-and al,bl;
+```
+Mov al,53h;
+
+Mov bl,68h;
+
+or al,bl;
+
 hlt
+```
 ## Output
 
-<img width="1920" height="1080" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/e00eae25-126d-46ba-b705-4dad6e160525" />
+
+<img width="1920" height="1080" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/02f8ee59-ef89-4656-9fd4-df28f743988e" />
 
 
 ## XOR alp
+```
 Mov al,43h;
+
 Mov bl,40h; 
+
 xor al,bl;
+
 hlt
+```
+
 ## Output
 
 <img width="1920" height="1080" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/f3868a32-c343-4820-b1f5-12b3b996b83f" />
@@ -131,17 +189,24 @@ hlt
 
 
 ## NOt
+```
 Mov al,43h;
+
 Mov bl,66h;
+
 not al;
+
 hlt
+```
+
 ## Output
 
-<img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/4d39dfcc-3753-494c-aba5-5525f931e085" />
+
+<img width="1920" height="1080" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/79c554cf-ecae-4320-8fc6-20607378aec0" />
 
 
 ## Result :
- 
+ Thus, ALP for fundamental arithmetic and logical operations are executed successfully
 
 
 
